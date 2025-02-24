@@ -6,6 +6,7 @@ dependencies:
   - pip
   - cmake 
   - openssh 
+  - singularity
   - pip:
       - jupyterlab-deck
       - jupyterlab-mathjax3

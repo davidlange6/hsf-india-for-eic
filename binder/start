@@ -5,5 +5,6 @@ rm -rf docker_info
 rm README.md
 
 cd eic
-./eic-shell
+#maybe this creates timeouts?
+#./eic-shell
 exec "$@"

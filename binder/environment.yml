@@ -17,6 +17,8 @@ dependencies:
       - fsspec-xrootd
       - xrootd
       - particle
+      - scipy
+      - pandas
      
 variables:
   LD_LIBRARY_PATH: "'$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/'"

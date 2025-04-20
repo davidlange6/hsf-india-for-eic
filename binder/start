@@ -4,9 +4,10 @@ rm -rf binder
 rm -rf docker_info
 rm README.md
 
-git clone https://github.com/eic/HSF-India/
+
 
 cd eic
+git clone https://github.com/eic/HSF-India/
 #maybe this creates timeouts?
 #./eic-shell
 exec "$@"
